@@ -1,0 +1,39 @@
+.navbar-avatar {
+    width:40px;
+    border-radius: 20px;
+}
+
+.border-upgrade {
+    border: 1px black solid;
+    border-radius: 1rem ;
+    font-family: 'Martel Sans', sans-serif;
+    
+}
+
+.button-search {
+    border:none;
+    background-color: white;
+}
+
+
+
+.input-div {
+    transform: translateX(85%);
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.slideleft {
+  transform: translateX(0);
+  transition: transform 1s;
+  position:relative;
+  z-index: 1;
+}
+
+.input-div input {
+    border: none;
+ }
+
+.hidden-input {
+    visibility: hidden;
+}
