@@ -1,13 +1,12 @@
 /* 
 CAREFULL WHEN MARGIN TAKE TIME TO  KNOW HOW TO DISPLAY CORRECTLY
 margin right
-put all on right
-check if spacer its right */
+spacer : put to right end and 85% width*/
 
 #spacer {
-  background: rgb(58, 55, 55);
+  background: rgba(146, 141, 141, 0.137);
   height: 2px;
-  width: 85%;
+  width: 75%;
 }
 
 #connectToTwitter {
