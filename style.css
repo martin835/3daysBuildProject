@@ -1,7 +1,12 @@
 /* 
 CAREFULL WHEN MARGIN TAKE TIME TO  KNOW HOW TO DISPLAY CORRECTLY
-margin right
-spacer : put to right end and 85% width*/
+margin right FOR ALL
+spacer : put to right end and 85% width
+
+
+recoTopics spaces
+
+*/
 
 #spacer {
   background: rgba(146, 141, 141, 0.137);
@@ -15,4 +20,9 @@ spacer : put to right end and 85% width*/
   border-radius: 50px;
   border-color: rgb(58, 55, 55);
   border-width: 1px;
+}
+
+.recoTopics {
+  background: rgba(226, 219, 219, 0.507);
+  border-radius: 50px;
 }
