@@ -1,0 +1,19 @@
+/* 
+CAREFULL WHEN MARGIN TAKE TIME TO  KNOW HOW TO DISPLAY CORRECTLY
+margin right
+put all on right
+check if spacer its right */
+
+#spacer {
+  background: rgb(58, 55, 55);
+  height: 2px;
+  width: 85%;
+}
+
+#connectToTwitter {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: rgb(58, 55, 55);
+  border-width: 1px;
+}
