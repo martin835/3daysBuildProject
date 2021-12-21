@@ -20,22 +20,31 @@
   </head>
   <body>
     <nav class="d-flex justify-content-around shadow p-3 mb-5 bg-white rounded">
-      <div class="nav-left my-0"> <img src="assets\medium-logo.png" alt=""> </div>
+      <div class="nav-left my-0"> <div class="nav-img-wrapper"> 
+          <picture>
+            <source media="(max-width: 727px)" srcset="assets\medium-logo-cut.png">
+            <img src="assets\medium-logo.png" alt="Logo">
+          </picture>
+        <span class="text-nav-img">Open in app</span> 
+      </div>
+    </div>      
       <div class="nav-right d-flex align-items-center px-2">        
         <div class="input-div"> 
           <button class="button-search " onclick="showInput()"><span><i class="fas fa-search px-2"></i></span></button>
-          <input type="text" class="hidden-input" placeholder="Search Medium">
+          <input type="text" class="hidden-input hide-at-904px" placeholder="Search Medium">
         </div>
         <span><i class="far fa-bookmark px-2"></i></span>
         <span><i class="far fa-bell px-2"></i></span>
-        <span class=" mx-2 px-2 pb-0  border-upgrade ">Upgrade</span>
+        <span class=" mx-2 px-2 pb-0 pt-1 border-upgrade ">Upgrade</span>
         <span><img src="assets\avatar.png" alt="avatar picture" class="navbar-avatar"></span>
       </div>      
     </nav>
 
 
 
-
+<div class="container-fluid hide-mobile-search" id="container-input-mobile">
+  <input type="text" placeholder="Search Medium" class="search-input-mobile show-mobile-search">
+</div>
 
 
 
