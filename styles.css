@@ -164,12 +164,16 @@ commentText should be bolder
 
 */
 
-
-.sticky-container {
+.sticky-parent {
+    position: sticky;
+    top: -315px;
+    height: 130vh;
+}
+/* .sticky-container {
     position: -webkit-sticky !important;
     position: sticky !important;
-    top: 0 !important;
-}
+    top: -1px !important;
+} */
 
 @media (max-width: 904px) {
   #hiddenOn904px {
