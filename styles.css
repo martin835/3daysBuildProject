@@ -3,8 +3,6 @@
     width: 94%;
 }
 
-
-
 nav {
     min-width: 330px;
 }
@@ -165,6 +163,14 @@ twitter button could be better
 commentText should be bolder
 
 */
+
+
+.sticky-container {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+}
+
 @media (max-width: 904px) {
   #hiddenOn904px {
     display: none;
