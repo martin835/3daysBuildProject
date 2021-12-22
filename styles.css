@@ -1,3 +1,4 @@
+
 .navbar-avatar {
     width:40px;
     border-radius: 20px;
@@ -51,12 +52,101 @@
         display: none;
     }
 
+    /* THE MAIN PART */
+
+.author-avatar {
+    width: 20px;
+    border-radius: 10px;
+}
+
+.author-text {
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.mcard h2 {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.mcard p {
+    color: rgb(122,119,117);
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.author a {
+    color: black;
+    text-decoration: none;
+}
+
+.mcard-img img {
+    width: 200px;
+    height: 134px;
+    overflow: hidden;
+}
+
+.mcard-tags {
+    font-size: 0.8rem;
+    color:rgb(122,119,117) ;
+}
+
+.bi.bi-star-fill {
+    font-size: 0.5rem;
+}
+
+.mtag {
+    border: 1px rgb(235,235,236) solid;
+    background-color: rgb(235,235,236);
+    border-radius: 1rem;
+    padding: 0.1rem 0.3rem;
+}
+
+.mcard-tags-right {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.mcard-tags-left {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cards-header {
+    color: rgb(122,119,117)  ;
+}
+
+.cards-header span {
+    padding-bottom: 10px;
+}
+
+.cards-header span:hover {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.line{
+    border-bottom: 1px solid rgb(122,119,117) ;    
+    margin-top: 10px;
+}
+
 
 @media only screen and (max-width: 727px) {
-    h1 {
-        color: red;        
-    }
+   
 
+    /* NAVIGATION */
     .border-upgrade {
         border: 1px black solid;
         border-radius: 1rem ;
@@ -74,6 +164,27 @@
         font-size: 0.8rem;
         font-weight: bolder;
     }
+    /* CARDS */
+
+    /* PEREX disappears
+        Heading FONT gets bigger
+        Pictures get bigger 200x134  vs. 150x100
+    */
+
+    .mcard p {
+      display: none;
+    }
+
+    .mcard h2 {
+        font-size: 1.1rem;
+    }
+
+    .mcard-img img {
+        width: 150px;
+        height: 100px;
+    }
+    
+
 
 }
 
@@ -111,4 +222,23 @@
         display: block;
     }
 
+    /* Right panel appears  - set with bootstrap classes */
+
+}
+
+
+@media only screen and (max-width: 552px) {
+    /* Selected for you disappears
+        Tag (blockchain , NFT disappears 
+        pictures get smaller 100 x 100
+    */
+
+    .mcard-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.d552 {
+    display: none;
+}
 }
