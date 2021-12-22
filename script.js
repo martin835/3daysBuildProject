@@ -5,6 +5,8 @@ const showInput = function () {
                 // window width is at less than 904px
                 let inputContainer = document.getElementById("container-input-mobile")
                 inputContainer.classList.toggle('show-mobile-search')
+                document.getElementById('main-container').classList.toggle('hide-main-container')
+                
         }
         else {
                 // window width is greater than 904px

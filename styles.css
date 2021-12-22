@@ -143,6 +143,90 @@
 }
 
 
+/* ALBERTO CSS START */
+/* 
+text center
+twitter button could be better
+
+commentText should be bolder
+
+*/
+@media (max-width: 904px) {
+  #hiddenOn904px {
+    display: none;
+  }
+}
+
+#spacer {
+  background: rgba(146, 141, 141, 0.137);
+  height: 2px;
+  width: 90%;
+}
+
+#connectToTwitter {
+  border-style: solid;
+  border-radius: 50px;
+  border-color: rgb(104, 96, 96);
+  border-width: 1px;
+  width: 70%;
+}
+
+#connectToTwitter:hover {
+  border-color: black;
+  cursor: pointer;
+}
+#connectToTwitter span {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.followDescription {
+  font-size: 75%;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.bgCustomWhite {
+  background: white !important;
+}
+
+.profileClickToFollow:hover {
+  cursor: pointer;
+}
+
+.imgProfileToFollow {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.commentAvatar {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 30% !important;
+}
+
+
+.commentAvatarType2 {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+
+#commentExpander {
+  font-weight: 500;
+}
+
+
+/* ALBERTO CSS END */
+
+
 @media only screen and (max-width: 727px) {
    
 
@@ -220,6 +304,10 @@
 
     .show-mobile-search {
         display: block;
+    }
+
+    .hide-main-container {
+        display: none;
     }
 
     /* Right panel appears  - set with bootstrap classes */
