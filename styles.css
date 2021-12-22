@@ -1,4 +1,14 @@
 
+#main-container {
+    width: 94%;
+}
+
+
+
+nav {
+    min-width: 330px;
+}
+
 .navbar-avatar {
     width:40px;
     border-radius: 20px;
@@ -124,7 +134,10 @@
 }
 
 .cards-header {
-    color: rgb(122,119,117)  ;
+    color: rgb(122,119,117);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .cards-header span {
@@ -134,11 +147,12 @@
 .cards-header span:hover {
     color: black;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(122,119,117);
 }
 
 .line{
-    border-bottom: 1px solid rgb(122,119,117) ;    
+    border-bottom: 1px solid rgb(122,119,117); 
+    opacity: 0.3;   
     margin-top: 10px;
 }
 
@@ -242,11 +256,21 @@ commentText should be bolder
         display: none;
     }
 
+    .nav-img-wrapper{
+         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
     .text-nav-img {
         display:inline;
         color: rgb(26, 137, 23);
         font-size: 0.8rem;
         font-weight: bolder;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     /* CARDS */
 
@@ -321,12 +345,15 @@ commentText should be bolder
         pictures get smaller 100 x 100
     */
 
-    .mcard-img img {
-    width: 100px;
-    height: 100px;
-}
+    .mcard-img img {      
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        overflow: hidden;
+       
+    }
 
-.d552 {
-    display: none;
-}
+    .d552 {
+        display: none;
+    }
 }

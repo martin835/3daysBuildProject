@@ -22,8 +22,10 @@
     <title> Medium Clone</title>
   </head>
   <body>
-    <nav class="d-flex justify-content-between shadow px-5 p-2 mb-5 bg-white rounded">
-        <div class="nav-left my-0"> <div class="nav-img-wrapper"> 
+
+    
+      <nav class="d-flex flex-nowrap justify-content-between px-sm-5 p-2  shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="nav-left my-0 ml-4"> <div class="nav-img-wrapper"> 
             <picture>
               <source media="(max-width: 727px)" srcset="assets\medium-logo-cut.png">
               <img src="assets\medium-logo.png" alt="Logo">
@@ -31,7 +33,7 @@
           <span class="text-nav-img">Open in app</span> 
         </div>
       </div>      
-        <div class="nav-right d-flex align-items-center px-2">        
+        <div class="nav-right d-flex align-items-center px-2 mr-4">        
           <div class="input-div"> 
             <button class="button-search " onclick="showInput()"><span><i class="fas fa-search px-2"></i></span></button>
             <input type="text" class="hidden-input hide-at-904px" placeholder="Search Medium">
@@ -42,6 +44,7 @@
           <span><img src="assets\avatar.png" alt="avatar picture" class="navbar-avatar"></span>
         </div>      
       </nav>
+   
 
 
 <!-- container for input search field on small screens. Is display: none on bigger screens. -->
@@ -51,17 +54,17 @@
 
  <!-- Container for the main part -->
 
- <div class="container-fluid px-5" id="main-container">
+ <div class="container-fluid px-sm-5" id="main-container">
    <div class="row">
-     <div class=" col-12 col-lg-8">
+     <div class="col-12 col-lg-8" id="mcard-parent">
 
-      <div class="cards-header mb-4 w-100 ">
+      <div class="cards-header mb-4 w-100">
         <span class="pr-2">FOLLOWING</span>
         <span class="pl-2">RECOMMENDED FOR YOU</span>
         <div class="line"></div>
       </div>
 
-      <div class="row  mcard"> 
+      <div class="row mcard mb-5"> 
         <div class="mcard-content col-8">
             <div class="author">
               <a href="">
@@ -73,8 +76,8 @@
                   <p>A good API architecture is important in effectively handling the communication between microservices. Don't be afraid to create new microservices, and try to decouple functionality as much as possible. </p>
                 </a>
               </div>
-              <div class="mcard-tags d-flex justify-content-between">
-                <div class="mcard-tags-left">
+              <div class="mcard-tags d-flex justify-content-between  ">
+                <div class="mcard-tags-left align-self-center">
                   <span>Aug 28</span>
                   <i class="bi bi-dot"></i>
                   <span>6 min read</span>
